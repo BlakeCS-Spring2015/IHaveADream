@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>75215701-B38D-48B3-B9DB-584243D164CE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IHAVEADREAM</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7B064819C03219CDC14637E85F70CBFA901FE425</key>
+		<string>https://github.com/BlakeCS-Spring2015/IHaveADream.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IHAVEADREAM.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7B064819C03219CDC14637E85F70CBFA901FE425</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BlakeCS-Spring2015/IHaveADream.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7B064819C03219CDC14637E85F70CBFA901FE425</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7B064819C03219CDC14637E85F70CBFA901FE425</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IHaveADream</string>
+		</dict>
+	</array>
+</dict>
+</plist>
