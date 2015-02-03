@@ -79,8 +79,8 @@
 			children = (
 				ABA6AC481A7FE440003E1480 /* AppDelegate.swift */,
 				ABA6AC4A1A7FE440003E1480 /* ViewController.swift */,
-				ABA6AC4F1A7FE440003E1480 /* Images.xcassets */,
 				ABA6AC4C1A7FE440003E1480 /* Main.storyboard */,
+				ABA6AC4F1A7FE440003E1480 /* Images.xcassets */,
 				ABA6AC511A7FE440003E1480 /* LaunchScreen.xib */,
 				ABA6AC461A7FE440003E1480 /* Supporting Files */,
 			);
