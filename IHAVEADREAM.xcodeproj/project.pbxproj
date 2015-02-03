@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		235041671A813F260052AA37 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235041661A813F260052AA37 /* SecondViewController.swift */; };
 		ABA6AC491A7FE440003E1480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA6AC481A7FE440003E1480 /* AppDelegate.swift */; };
 		ABA6AC4B1A7FE440003E1480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA6AC4A1A7FE440003E1480 /* ViewController.swift */; };
 		ABA6AC4E1A7FE440003E1480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA6AC4C1A7FE440003E1480 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		235041661A813F260052AA37 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		ABA6AC431A7FE440003E1480 /* IHAVEADREAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IHAVEADREAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA6AC471A7FE440003E1480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABA6AC481A7FE440003E1480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				ABA6AC481A7FE440003E1480 /* AppDelegate.swift */,
 				ABA6AC4A1A7FE440003E1480 /* ViewController.swift */,
+				235041661A813F260052AA37 /* SecondViewController.swift */,
 				ABA6AC4C1A7FE440003E1480 /* Main.storyboard */,
 				ABA6AC4F1A7FE440003E1480 /* Images.xcassets */,
 				ABA6AC511A7FE440003E1480 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235041671A813F260052AA37 /* SecondViewController.swift in Sources */,
 				ABA6AC4B1A7FE440003E1480 /* ViewController.swift in Sources */,
 				ABA6AC491A7FE440003E1480 /* AppDelegate.swift in Sources */,
 			);
