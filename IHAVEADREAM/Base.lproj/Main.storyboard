@@ -22,7 +22,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="yUE-4z-pP5" kind="modal" id="zGg-S4-cEL"/>
+                                    <segue destination="yUE-4z-pP5" kind="modal" id="ovA-0n-2hv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -31,7 +31,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="186" y="320"/>
+            <point key="canvasLocation" x="60" y="320"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="j18-gC-lrk">
@@ -58,6 +58,7 @@
                                 </state>
                                 <connections>
                                     <action selector="firstPictureButton:" destination="yUE-4z-pP5" eventType="touchUpInside" id="DGZ-AT-8VX"/>
+                                    <segue destination="Vzu-MD-hQE" kind="modal" id="9SZ-5e-oTi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z59-cO-qPI">
@@ -67,6 +68,7 @@
                                 </state>
                                 <connections>
                                     <action selector="secondPictureButton:" destination="yUE-4z-pP5" eventType="touchUpInside" id="0aA-Vo-U3c"/>
+                                    <segue destination="xBk-M4-hDO" kind="modal" id="7Lv-OI-RRV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvl-kJ-1YM">
@@ -76,6 +78,7 @@
                                 </state>
                                 <connections>
                                     <action selector="thirdPictureButton:" destination="yUE-4z-pP5" eventType="touchUpInside" id="izH-zV-uw1"/>
+                                    <segue destination="dmW-u3-hdY" kind="modal" id="r0w-88-hfx"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NIF-bJ-C69">
@@ -91,6 +94,60 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZiP-tv-lL1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="533" y="320"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ICr-YL-H52">
+            <objects>
+                <viewController id="Vzu-MD-hQE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="98C-07-94v"/>
+                        <viewControllerLayoutGuide type="bottom" id="fts-xt-u1T"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="awc-ig-55n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6U1-eA-R8M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="950" y="-19"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3OE-gw-9i6">
+            <objects>
+                <viewController id="dmW-u3-hdY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A3B-hT-aKK"/>
+                        <viewControllerLayoutGuide type="bottom" id="f8o-ML-DFC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SJ5-TT-QtK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PUR-Ie-bl1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="533" y="1050"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TeJ-lm-tyk">
+            <objects>
+                <viewController id="xBk-M4-hDO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hAD-rR-qjE"/>
+                        <viewControllerLayoutGuide type="bottom" id="jVK-0o-IF5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zsY-Ua-P18">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ral-n8-fMp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="958" y="609"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
