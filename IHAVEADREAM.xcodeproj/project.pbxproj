@@ -14,6 +14,9 @@
 		ABA6AC501A7FE440003E1480 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA6AC4F1A7FE440003E1480 /* Images.xcassets */; };
 		ABA6AC531A7FE440003E1480 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA6AC511A7FE440003E1480 /* LaunchScreen.xib */; };
 		ABA6AC5F1A7FE440003E1480 /* IHAVEADREAMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA6AC5E1A7FE440003E1480 /* IHAVEADREAMTests.swift */; };
+		C6E8D9071A8286D3008DC665 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E8D9041A8286D3008DC665 /* a.jpg */; };
+		C6E8D9081A8286D3008DC665 /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E8D9051A8286D3008DC665 /* b.jpg */; };
+		C6E8D9091A8286D3008DC665 /* c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E8D9061A8286D3008DC665 /* c.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		ABA6AC581A7FE440003E1480 /* IHAVEADREAMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IHAVEADREAMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA6AC5D1A7FE440003E1480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABA6AC5E1A7FE440003E1480 /* IHAVEADREAMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHAVEADREAMTests.swift; sourceTree = "<group>"; };
+		C6E8D9041A8286D3008DC665 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
+		C6E8D9051A8286D3008DC665 /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
+		C6E8D9061A8286D3008DC665 /* c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,9 @@
 		ABA6AC461A7FE440003E1480 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C6E8D9041A8286D3008DC665 /* a.jpg */,
+				C6E8D9051A8286D3008DC665 /* b.jpg */,
+				C6E8D9061A8286D3008DC665 /* c.jpg */,
 				ABA6AC471A7FE440003E1480 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,6 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABA6AC4E1A7FE440003E1480 /* Main.storyboard in Resources */,
+				C6E8D9081A8286D3008DC665 /* b.jpg in Resources */,
+				C6E8D9071A8286D3008DC665 /* a.jpg in Resources */,
+				C6E8D9091A8286D3008DC665 /* c.jpg in Resources */,
 				ABA6AC531A7FE440003E1480 /* LaunchScreen.xib in Resources */,
 				ABA6AC501A7FE440003E1480 /* Images.xcassets in Resources */,
 			);

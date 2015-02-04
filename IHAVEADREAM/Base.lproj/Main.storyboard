@@ -45,25 +45,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vzs-QR-35I">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vzs-QR-35I">
                                 <rect key="frame" x="109" y="56" width="102" height="93"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hNM-SI-sLu">
-                                <rect key="frame" x="109" y="193" width="102" height="93"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hNM-SI-sLu">
+                                <rect key="frame" x="102" y="198" width="116" height="93"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2MI-Wr-B6m">
-                                <rect key="frame" x="109" y="56" width="102" height="93"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="firstPictureButton:" destination="yUE-4z-pP5" eventType="touchUpInside" id="DGZ-AT-8VX"/>
-                                    <segue destination="Vzu-MD-hQE" kind="modal" id="9SZ-5e-oTi"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z59-cO-qPI">
-                                <rect key="frame" x="109" y="193" width="102" height="93"/>
-                                <state key="normal" title="Button">
+                                <rect key="frame" x="109" y="198" width="102" height="93"/>
+                                <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -81,9 +71,19 @@
                                     <segue destination="dmW-u3-hdY" kind="modal" id="r0w-88-hfx"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NIF-bJ-C69">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NIF-bJ-C69">
                                 <rect key="frame" x="109" y="334" width="102" height="93"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2MI-Wr-B6m">
+                                <rect key="frame" x="109" y="56" width="102" height="93"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="firstPictureButton:" destination="yUE-4z-pP5" eventType="touchUpInside" id="DGZ-AT-8VX"/>
+                                    <segue destination="Vzu-MD-hQE" kind="modal" id="9SZ-5e-oTi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -180,6 +180,11 @@
             <point key="canvasLocation" x="958" y="609"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="a.jpg" width="264" height="191"/>
+        <image name="b.jpg" width="253" height="199"/>
+        <image name="c.jpg" width="234" height="216"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
