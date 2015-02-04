@@ -87,13 +87,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="secondPictureButton" destination="Z59-cO-qPI" id="Gt7-Gr-Fik"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZiP-tv-lL1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="533" y="320"/>
+            <point key="canvasLocation" x="582" y="320"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ICr-YL-H52">
@@ -155,4 +152,5 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <color key="tintColor" red="0.017960715275945449" green="0.73883946069822959" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
